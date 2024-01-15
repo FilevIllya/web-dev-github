@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  background-color: bisque;
+  margin: 50px;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+p {
+  font-family: "Fira Sans", sans-serif;
+}
+
+a {
+  text-align: center;
+  color: rgb(10, 27, 100);
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+}
+
+a:hover {
+  text-decoration: overline;
+  color: rgb(100, 27, 10);
+}

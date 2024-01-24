@@ -1,0 +1,52 @@
+/* 
+h1 {
+  color: orange;
+  text-align: center;
+}
+
+#latest-products {
+  width: 80%;
+  margin: 50px auto;
+}
+
+#latest-products ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+#latest-products li {
+  background-color: wheat;
+  height: 400px;
+  width: 500px;
+}
+
+.food-items {
+  text-align: center;
+  overflow: hidden;
+}
+
+.food-items h2 {
+  text-align: center;
+  margin: 5px;
+  font-weight: bold;
+}
+
+.food-items img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.food-items button {
+  height: 40px;
+  width: 100px;
+  color: white;
+  background-color: orange;
+  border-radius: 9px;
+  font-size: 15px;
+} */

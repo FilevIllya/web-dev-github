@@ -1,0 +1,101 @@
+body {
+  background-color: aliceblue;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  margin: 2rem 2rem 0.5rem 2rem;
+  text-align: center;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  width: 40rem;
+  margin: 2rem auto;
+  background-color: rgb(224, 235, 245);
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 2px 1px 0 gray;
+}
+
+label {
+  display: block;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  display: block;
+  margin-bottom: 0.5rem;
+  box-sizing: border-box;
+  font: inherit;
+  border: 1px solid rgb(184, 184, 184);
+  padding: 0.25rem;
+  color: rgb(61, 58, 58);
+}
+
+textarea {
+  resize: vertical;
+}
+
+.inline-form-element {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.inline-form-element input {
+  width: auto;
+}
+
+.checkbox-list {
+  margin: 1rem 0;
+}
+
+.flex-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+button {
+  width: 5rem;
+  height: 3rem;
+  margin: 0 0.5rem;
+  font: inherit;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#resetbutton {
+  background-color: aliceblue;
+  color: black;
+  border: 1px solid black;
+}
+
+#submitbutton {
+  background-color: rgb(28, 28, 84);
+  color: white;
+  border: 1px solid black;
+}
+
+#resetbutton:hover {
+  background-color: rgb(103, 103, 166);
+  color: white;
+}
+
+#submitbutton:hover {
+  background-color: rgb(53, 53, 111);
+}

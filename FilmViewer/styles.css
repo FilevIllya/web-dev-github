@@ -1,0 +1,119 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  background-color: rgb(40, 37, 37);
+}
+
+/* header */
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#main-header {
+  height: 5rem;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+}
+
+#logo {
+  color: white;
+  font-size: 2rem;
+}
+
+#main-header ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#main-header li {
+  margin: 0.25rem;
+  align-content: center;
+}
+
+#main-header button {
+  width: 5rem;
+  height: 2rem;
+  background-color: rgb(40, 37, 37);
+  color: rgb(176, 169, 169);
+  border-radius: 20px;
+}
+
+#main-header button:hover {
+  background-color: rgb(66, 58, 58);
+  cursor: pointer;
+}
+
+#main-header input {
+  height: 1.5rem;
+  border-radius: 10px;
+}
+
+/* header end */
+
+/* body */
+
+#movie-list {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+#movie-list ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+#movie-list li {
+  margin: 1rem;
+}
+
+#movie-list img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.movie-container {
+  padding: 1rem;
+  text-align: center;
+}
+
+.movie-item {
+  position: relative;
+}
+
+.movie-item p {
+  margin: 0;
+  padding: 0;
+  color: orange;
+  overflow: hidden;
+  list-style: none;
+  font-size: 1.25rem;
+}
+
+.Rating {
+  position: absolute;
+  color: white;
+  top: 20px;
+  left: 10px;
+  width: 2.2rem;
+  height: 2.2rem;
+  font-size: 0.8rem;
+  background-color: black;
+  border: 3px solid green;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: green;
+}

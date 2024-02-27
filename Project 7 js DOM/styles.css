@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(53, 41, 41);
+  padding: 2rem;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  display: block;
+  margin: 1rem 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+input {
+  width: 25rem;
+  height: 2rem;
+  background-color: white;
+  border: 1px solid;
+  border-color: blue;
+  padding: 0;
+}
+
+input:focus {
+  outline: none;
+  background-color: rgb(255, 224, 166);
+}
+
+#inputBox {
+  width: 60%;
+  background-color: rgb(255, 224, 166);
+  border-radius: 8px;
+  padding: 0 1rem;
+}
+
+#inputBox p {
+  display: inline;
+  margin: 0;
+}
+
+#inputBox button {
+  display: block;
+  margin: 1rem 0;
+  width: 5rem;
+  height: 2rem;
+  border-radius: 6px;
+  background-color: rgb(241, 189, 56);
+  border: 0;
+}
+
+#inputBox button:hover {
+  background-color: rgb(194, 155, 59);
+}
+
+input.warning {
+  background-color: rgb(211, 109, 26);
+}

@@ -1,10 +1,20 @@
-//document.body.children[1].children[0].href = "https://google.com";
+let paragraphElement = document.body.firstElementChild;
 
-// console.dir(window.document);
+function changeParagraphText() {
+  paragraphElement.textContent = "Clicked!";
+}
 
-//query
-let anchorElement = document.getElementById("external-link");
-anchorElement.href = "https://google.com";
+paragraphElement.addEventListener("click", changeParagraphText);
 
-anchorElement = document.querySelector("#external-link");
-anchorElement.href = "https://academind.com";
+//input ivent
+let inputElement = document.querySelector("input");
+
+function retrieveUserInput(event) {
+  //let enteredText = inputElement.value; //text inside <input>
+  let enteredText = event.target.value; // - same;
+  // let enteredText = event.data; -diferent
+  console.log(enteredText);
+  // console.log(event);
+}
+
+inputElement.addEventListener("input", retrieveUserInput);
